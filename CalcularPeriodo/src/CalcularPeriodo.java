@@ -7,9 +7,13 @@ public class CalcularPeriodo {
 	public static void main(String[] args) {
 		
 		//Creamos la fecha del descubrimiento de américa
-		LocalDate fecha = LocalDate.of(1492, Month.OCTOBER, 12);	 
+		LocalDate fecha = LocalDate.of(1492, Month.OCTOBER, 12);	
+		LocalDate fecha2 = LocalDate.of(1812, Month.MARCH, 19);
+		LocalDate fecha3 = LocalDate.of(1889, Month.SEPTEMBER, 28);
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de América", fecha);
+		calcularPeriodo("Promulgacion de la Pepa", fecha2);
+		calcularPeriodo("Se crea Nintendo", fecha3);
 		
 	}
 	
